@@ -177,6 +177,7 @@ class Helpers:
         status_code = None
 
         try:
+            logger.debug("=======Custom pyvesync by Kannie============")
             logger.debug("=======call_api=============================")
             logger.debug("[%s] calling '%s' api", method, api)
             logger.debug("API call URL: \n  %s%s", API_BASE_URL, api)
